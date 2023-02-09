@@ -13,8 +13,8 @@ lazy val root = (project in file("."))
 
     libraryDependencies ++= {
       if (scala3(scalaVersion.value)) Seq(
-        "io.bullet" %% "borer-core" % "1.10.1",
-        "io.bullet" %% "borer-derivation" % "1.10.1"
+        "io.bullet" %% "borer-core" % "1.10.2",
+        "io.bullet" %% "borer-derivation" % "1.10.2"
       ) else Seq(
         "io.bullet" %% "borer-core" % "1.7.2",
         "io.bullet" %% "borer-derivation" % "1.7.2"
